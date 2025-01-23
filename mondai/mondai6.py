@@ -3,4 +3,6 @@ age=int(age)
 
 if age >= 20:
     print("成人です")
-print("未成年です")
+    
+if age < 20:
+    print("未成年です")
